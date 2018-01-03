@@ -1,0 +1,16 @@
+table{
+    margin: 0 auto;
+    text-align: center;
+}
+body {
+    font-family: "Avenir Next";
+    text-align:center;
+    font-size: large;
+    color: white;
+    background-color: lightsteelblue;
+}
+
+table{
+    width: auto;
+    border: inherit;
+}

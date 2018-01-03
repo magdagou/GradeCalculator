@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<br>
+<br>
+GRADE CALCULATOR
+<br>
+<br>
+<table>
+    <tr>
+        <th>CATEGORIES</th>
+        <th>ASSIGNEMENTS</th>
+        <th>WEIGHT</th>
+    </tr>
+    <tr>
+        <td>HOMEWORK</td>
+        <td>
+            <input id="hwa" size="20">
+        </td>
+        <td>
+            <input id="hww" size="20">
+        </td>
+    </tr>
+    <tr>
+        <td>CLASSWORK</td>
+        <td>
+            <input id="cwa" size="20">
+        </td>
+        <td>
+            <input id="cww" size="20">
+        </td>
+    </tr>
+    <tr>
+        <td>TEST & QUIZZES</td>
+        <td>
+            <input id="tqa" size="20">
+        </td>
+        <td>
+            <input id="tqw" size="20">
+        </td>
+    </tr>
+</table>
+<br>
+<br>
+<br>
+<button onclick="calculateCurrentGrade()">CALCULATE CURRENT GRADE</button>
+<br>
+<br>
+<br>
+<div id="currentGrade"></div>
+<br>
+<br>
+<br>
+FINAL
+<br>
+<br>
+<br>
+<table>
+    <tr>
+        <th>DESIRED GRADE</th>
+        <th>WEIGHT</th>
+    </tr>
+    <tr>
+        <td>
+            <input id="desiredgrade" size="20">
+        </td>
+        <td>
+            <input id="fweight" size="20">
+        </td>
+    </tr>
+</table>
+<br>
+<br>
+<button onclick="calculateGradeNeeded()">CALCULATE FINAL GRADE NEEDED</button>
+<br>
+<br>
+<div id ="GradeNeeded"></div>
+</body>
+</html>
